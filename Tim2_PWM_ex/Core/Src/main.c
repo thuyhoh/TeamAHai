@@ -95,7 +95,7 @@ int main(void)
 		Error_Handler();
 	}
 
-	TIM_SetFreq_Hz(&htim2, 4000);
+	TIM_SetFreq_Hz(&htim2, 6000);
 	__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1 ,((__HAL_TIM_GET_AUTORELOAD(&htim2))*40/100));
   /* USER CODE END 2 */
 
